@@ -508,3 +508,37 @@ p.copyright-footer a {
 .layout-file-text .exhibit-items.left.fullsize.captions-center img.full {
   width: 100%;
 }
+
+.layout-file-text .exhibit-text.right.fullsize.captions-center {
+  float: left;
+  width: 300px;
+  padding: 5px;
+}
+
+.layout-file-text .exhibit-items.right.fullsize.captions-center {
+  float: right;
+  width: 350px;
+  padding: 5px;
+}
+
+.layout-file-text .exhibit-items.right.fullsize.captions-center img.full {
+  width: 100%;
+}
+
+.exhibit-block.layout-file-text {
+  overflow: hidden;
+  border-bottom: 1px solid #eee;
+}
+
+.layout-gallery .exhibit-item.exhibit-gallery-item {
+  width: 25%;
+  float: left;
+  margin: 2%;
+}
+
+.exhibit-block.layout-gallery .gallery {
+  overflow: hidden;
+}
+
+/* fcd1, Jan 2015: */
+/* END of Changes for move to Omeka 2.2.2 (and ExhibitBuilder 3.1.3) */
