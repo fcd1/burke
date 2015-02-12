@@ -540,5 +540,32 @@ p.copyright-footer a {
   overflow: hidden;
 }
 
+.exhibit-block.layout-gallery .gallery-showcase.right.with-left {
+  width: 48%;
+  float: right;
+  padding: 1em;
+}
+
+.exhibit-block.layout-gallery .gallery.with-showcase.left {
+  width: 45%;
+  float: left;
+  padding: 1em;
+}
+
+.exhibit-block.layout-gallery .gallery-showcase.left.with-right img.full,
+.exhibit-block.layout-gallery .gallery-showcase.right.with-left img.full {
+  width: 100%;
+  margin-bottom: 1.5em;
+}
+
+.exhibit-block.layout-gallery .gallery.with-showcase.right.captions-center .exhibit-item.exhibit-gallery-item img,
+.exhibit-block.layout-gallery .gallery.with-showcase.left.captions-center .exhibit-item.exhibit-gallery-item img {
+  width: 100%;
+}
+
+.exhibit-block.layout-gallery .gallery .exhibit-item.exhibit-gallery-item img {
+  max-width: 100%;
+}
+
 /* fcd1, Jan 2015: */
 /* END of Changes for move to Omeka 2.2.2 (and ExhibitBuilder 3.1.3) */
